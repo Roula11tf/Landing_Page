@@ -1,0 +1,151 @@
+/* General styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header img{
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/* Header styles */
+header {
+  background-color: #717171;
+  color: #fff;
+  padding: 5px 0;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+/* Slideshow styles */
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+}
+
+.mySlides {
+  display: none;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  height: 450px;
+}
+
+/* Arrow styles */
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  padding: 16px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  user-select: none;
+}
+
+.prev {
+  left: 0;
+  border-radius: 0 5px 5px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 5px 0 0 5px;
+}
+
+.prev:hover, .next:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Dot styles */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 4px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  cursor: pointer;
+}
+
+/* Style for the active dot */
+.dot.active {
+  background-color: #717171;
+}
+
+/* Section styles */
+.about, .trails, .gallery, .contact {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+.about h2, .trails h2, .gallery h2, .contact h2 {
+  text-align: center;
+}
+
+.about p, .trails p, .gallery p {
+  text-align: center;
+}
+
+/* Gallery styles */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.image {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+/* Button styles */
+.cta-button {
+  display: inline-block;
+  background-color: #ff6600;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+footer {
+  background-color: #717171;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
